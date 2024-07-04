@@ -1,5 +1,6 @@
 Research Objectives
 1. Compare the contributions of fossil fuel and land use change emissions to national and global warming.
+
 Objective:
 
 To quantify and compare the relative impacts of CO2, CH4, and N2O emissions from fossil fuel use versus land use changes on national and global warming.
@@ -25,4 +26,5 @@ To determine the relative efficacy of each gas in contributing to global warming
 Approach:
 
 Develop separate linear regression models for cumulative emissions of CO2, CH4, and N2O with GMST change as the response variable.
+
 Compare the coefficients of these models to determine which gas has the highest warming potential per unit of cumulative emissions.
