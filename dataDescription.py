@@ -10,7 +10,7 @@ def data_head(df):
 
 
 def data_shape(df):
-    return df.shape()
+    return df.shape
 
 
 def check_null(df):

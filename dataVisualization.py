@@ -9,7 +9,6 @@ def plot_line_graph(df, x, y, x_label, y_label, title):
     plt.title(title)
     plt.xlabel(x_label)
     plt.ylabel(y_label)
-    plt.show()
 
 
 def plot_pie_chart(df, labels, title):
