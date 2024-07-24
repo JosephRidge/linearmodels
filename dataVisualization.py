@@ -1,5 +1,7 @@
 import seaborn as sns
 import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
+from sklearn.preprocessing import StandardScaler
 
 
 def plot_line_graph(df, x, y, x_label, y_label, title):
@@ -31,3 +33,7 @@ def plot_bar_chart(df, x, y, x_label, y_label, title):
     plt.xlabel(x_label)
     plt.ylabel(y_label)
     plt.show()
+
+
+def pca_plot():
+    return 1

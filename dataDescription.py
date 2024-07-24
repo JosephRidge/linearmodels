@@ -14,7 +14,11 @@ def data_shape(df):
 
 
 def check_null(df):
-    return df.isnull().sum()
+    return df.isnull().mean() * 100
+
+
+def drop_rows(df):
+    return df.dropna()
 
 
 def get_info(df):
